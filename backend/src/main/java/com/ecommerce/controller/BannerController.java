@@ -12,7 +12,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.List;
 
 @RestController
-@RequestMapping("/banners")
+@RequestMapping("/api/banners")
 @RequiredArgsConstructor
 public class BannerController {
 
