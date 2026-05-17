@@ -1,0 +1,11 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { font-family: $font; color: $text-primary; background: $bg; line-height: 1.6; min-height: 100vh; overflow-x: hidden; }
+h1, h2, h3, h4, h5, h6 { font-family: $font-heading; line-height: 1.25; color: $text-primary; }
+a { text-decoration: none; color: inherit; cursor: pointer; }
+ul, ol { list-style: none; }
+img { max-width: 100%; height: auto; display: block; }
+button { font-family: $font; cursor: pointer; border: none; outline: none; background: none; }
+input, textarea, select { font-family: $font; outline: none; }
+p { color: $text-secondary; line-height: 1.7; }
+.material-icons-round { font-size: 22px; }

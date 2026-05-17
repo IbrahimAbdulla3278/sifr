@@ -1,0 +1,13 @@
+.app-container { min-height: 100vh; padding-top: 60px; padding-bottom: 60px; @include tablet-up { padding-bottom: 0; } }
+.section-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+.section-title { font-size: 17px; font-weight: 600; color: $text-primary; }
+.section-link { font-size: 13px; font-weight: 500; color: $accent; transition: opacity 0.2s; &:hover { opacity: 0.7; } }
+
+.grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; @include tablet-up { grid-template-columns: repeat(3, 1fr); gap: 14px; } @include desktop-up { grid-template-columns: repeat(4, 1fr); gap: 18px; } }
+
+.h-scroll { display: flex; gap: 10px; overflow-x: auto; @include hide-scrollbar; padding-bottom: 2px; }
+.h-scroll > * { flex-shrink: 0; }
+
+.price-row { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; .cur { font-size: 15px; font-weight: 600; color: $text-primary; } .old { font-size: 12px; color: $text-muted; text-decoration: line-through; } .off { font-size: 11px; font-weight: 600; color: $discount; } }
+
+.empty-state { text-align: center; padding: 60px 16px; .material-icons-round { font-size: 48px; color: #DDD; margin-bottom: 12px; } h3 { font-size: 16px; margin-bottom: 4px; } p { font-size: 13px; color: $text-muted; } }
