@@ -50,6 +50,10 @@ public class DataInitializer implements CommandLineRunner {
             Category.builder().id("cat-women").name("WOMEN").slug("women").image("women.svg").displayOrder(2).build(),
             Category.builder().id("cat-travel").name("TRAVEL ACCESSORIES").slug("travel-accessories").image("travel.svg").displayOrder(3).build(),
             Category.builder().id("cat-beauty").name("BEAUTY").slug("beauty").image("beauty.svg").displayOrder(4).build(),
+            Category.builder().id("cat-electronics").name("ELECTRONICS").slug("electronics").image("electronics.svg").displayOrder(5).build(),
+            Category.builder().id("cat-sports").name("SPORTS & FITNESS").slug("sports-fitness").image("sports.svg").displayOrder(6).build(),
+            Category.builder().id("cat-books").name("BOOKS").slug("books").image("books.svg").displayOrder(7).build(),
+            Category.builder().id("cat-home").name("HOME & KITCHEN").slug("home-kitchen").image("home.svg").displayOrder(8).build(),
 
             Category.builder().id("cat-men-tw").name("Top Wear").slug("men-top-wear").parentId("cat-men").image("topwear.svg").displayOrder(1).build(),
             Category.builder().id("cat-men-bw").name("Bottom Wear").slug("men-bottom-wear").parentId("cat-men").image("bottomwear.svg").displayOrder(2).build(),
@@ -176,7 +180,19 @@ public class DataInitializer implements CommandLineRunner {
             Category.builder().id("cat-beauty-lipsticks").name("Lipsticks").slug("beauty-lipsticks").parentId("cat-beauty").image("lipsticks.svg").displayOrder(2).build(),
             Category.builder().id("cat-beauty-brushes").name("Brushes").slug("beauty-brushes").parentId("cat-beauty").image("brushes.svg").displayOrder(3).build(),
             Category.builder().id("cat-beauty-skincare").name("Skincare").slug("beauty-skincare").parentId("cat-beauty").image("skincare.svg").displayOrder(4).build(),
-            Category.builder().id("cat-beauty-perfumes").name("Perfumes").slug("beauty-perfumes").parentId("cat-beauty").image("perfumes.svg").displayOrder(5).build()
+            Category.builder().id("cat-beauty-perfumes").name("Perfumes").slug("beauty-perfumes").parentId("cat-beauty").image("perfumes.svg").displayOrder(5).build(),
+
+            Category.builder().id("cat-el-laptops").name("Laptops").slug("laptops").parentId("cat-electronics").image("electronics.svg").displayOrder(1).build(),
+            Category.builder().id("cat-el-phones").name("Smartphones").slug("smartphones").parentId("cat-electronics").image("electronics.svg").displayOrder(2).build(),
+            Category.builder().id("cat-el-audio").name("Audio").slug("audio").parentId("cat-electronics").image("electronics.svg").displayOrder(3).build(),
+
+            Category.builder().id("cat-st-shoes").name("Running Shoes").slug("running-shoes").parentId("cat-sports").image("sports.svg").displayOrder(1).build(),
+            Category.builder().id("cat-st-yoga").name("Yoga & Pilates").slug("yoga-pilates").parentId("cat-sports").image("sports.svg").displayOrder(2).build(),
+
+            Category.builder().id("cat-bk-cooking").name("Cookbooks").slug("cookbooks").parentId("cat-books").image("books.svg").displayOrder(1).build(),
+
+            Category.builder().id("cat-hm-appliances").name("Appliances").slug("appliances").parentId("cat-home").image("home.svg").displayOrder(1).build(),
+            Category.builder().id("cat-hm-lighting").name("Lighting").slug("lighting").parentId("cat-home").image("home.svg").displayOrder(2).build()
         ));
         log.info("Category hierarchy seeded");
     }
@@ -185,12 +201,20 @@ public class DataInitializer implements CommandLineRunner {
         if (!categoryRepository.existsByName("MEN")) return;
         if (productRepository.count() > 0) productRepository.deleteAll();
 
-        Category shirts = categoryRepository.findById("cat-men-tw-shirts").orElse(null);
+        Category laptops = categoryRepository.findById("cat-el-laptops").orElse(null);
+        Category phones = categoryRepository.findById("cat-el-phones").orElse(null);
         Category tshirts = categoryRepository.findById("cat-men-tw-tshirts").orElse(null);
+        Category jackets = categoryRepository.findById("cat-men-tw-jackets").orElse(null);
+        Category appliances = categoryRepository.findById("cat-hm-appliances").orElse(null);
+        Category cookbooks = categoryRepository.findById("cat-bk-cooking").orElse(null);
+        Category runshoes = categoryRepository.findById("cat-st-shoes").orElse(null);
+        Category yoga = categoryRepository.findById("cat-st-yoga").orElse(null);
+        Category audio = categoryRepository.findById("cat-el-audio").orElse(null);
+        Category lighting = categoryRepository.findById("cat-hm-lighting").orElse(null);
 
         List<Product> products = List.of(
             Product.builder()
-                .sku("ELEC-LAP-001").name("ProBook X1 Laptop").categoryId(shirts != null ? shirts.getId() : null).categoryName("Shirts")
+                .sku("ELEC-LAP-001").name("ProBook X1 Laptop").categoryId(laptops != null ? laptops.getId() : null).categoryName("Laptops")
                 .description("High-performance laptop with 16GB RAM, 512GB SSD, and 15.6\" FHD display.")
                 .images(List.of("laptop.svg")).price(new BigDecimal("89999")).discountPrice(new BigDecimal("74999")).currency("INR")
                 .stock(50).brand("TechPro").featured(true).active(true).tags(List.of("laptop","work","gaming"))
@@ -200,7 +224,7 @@ public class DataInitializer implements CommandLineRunner {
                 )).averageRating(4.5).reviewCount(2).salesCount(120).build(),
 
             Product.builder()
-                .sku("ELEC-PHN-002").name("Galaxy S24 Ultra").categoryId(shirts != null ? shirts.getId() : null).categoryName("Shirts")
+                .sku("ELEC-PHN-002").name("Galaxy S24 Ultra").categoryId(phones != null ? phones.getId() : null).categoryName("Smartphones")
                 .description("Premium smartphone with 200MP camera and S Pen support.")
                 .images(List.of("phone.svg")).price(new BigDecimal("124999")).discountPrice(new BigDecimal("109999")).currency("INR")
                 .stock(100).brand("Samsung").featured(true).active(true).tags(List.of("phone","premium","5g"))
@@ -219,28 +243,28 @@ public class DataInitializer implements CommandLineRunner {
                 )).averageRating(4.6).reviewCount(89).salesCount(1200).build(),
 
             Product.builder()
-                .sku("CLTH-JKT-002").name("Denim Jacket").categoryId(tshirts != null ? tshirts.getId() : null).categoryName("T-Shirts")
+                .sku("CLTH-JKT-002").name("Denim Jacket").categoryId(jackets != null ? jackets.getId() : null).categoryName("Jackets")
                 .description("Stylish denim jacket with modern fit and multiple pockets.")
                 .images(List.of("jacket.svg")).price(new BigDecimal("2999")).discountPrice(new BigDecimal("1999")).currency("INR")
                 .stock(150).brand("FashionHub").featured(false).active(true).tags(List.of("jacket","denim","fashion"))
                 .averageRating(4.2).reviewCount(34).salesCount(280).build(),
 
             Product.builder()
-                .sku("HOME-BLD-001").name("Professional Blender").categoryId(shirts != null ? shirts.getId() : null).categoryName("Shirts")
+                .sku("HOME-BLD-001").name("Professional Blender").categoryId(appliances != null ? appliances.getId() : null).categoryName("Appliances")
                 .description("1200W blender with 6 stainless steel blades and 1.5L jar.")
                 .images(List.of("blender.svg")).price(new BigDecimal("5499")).discountPrice(new BigDecimal("3999")).currency("INR")
                 .stock(80).brand("HomeChef").featured(true).active(true).tags(List.of("blender","kitchen"))
                 .averageRating(4.4).reviewCount(56).salesCount(420).build(),
 
             Product.builder()
-                .sku("BOOK-COOK-001").name("The Art of Indian Cooking").categoryId(shirts != null ? shirts.getId() : null).categoryName("Shirts")
+                .sku("BOOK-COOK-001").name("The Art of Indian Cooking").categoryId(cookbooks != null ? cookbooks.getId() : null).categoryName("Cookbooks")
                 .description("200+ authentic Indian recipes with step-by-step instructions.")
                 .images(List.of("cookbook.svg")).price(new BigDecimal("1499")).discountPrice(new BigDecimal("999")).currency("INR")
                 .stock(300).brand("Penguin").featured(true).active(true).tags(List.of("cookbook","indian"))
                 .averageRating(4.7).reviewCount(120).salesCount(890).build(),
 
             Product.builder()
-                .sku("SPRT-SNK-001").name("Running Shoes Pro").categoryId(shirts != null ? shirts.getId() : null).categoryName("Shirts")
+                .sku("SPRT-SNK-001").name("Running Shoes Pro").categoryId(runshoes != null ? runshoes.getId() : null).categoryName("Running Shoes")
                 .description("Lightweight running shoes with responsive cushioning.")
                 .images(List.of("sneakers.svg")).price(new BigDecimal("7999")).discountPrice(new BigDecimal("5499")).currency("INR")
                 .stock(200).brand("SportMax").featured(true).active(true).tags(List.of("shoes","running"))
@@ -252,23 +276,23 @@ public class DataInitializer implements CommandLineRunner {
                 )).averageRating(4.5).reviewCount(67).salesCount(780).build(),
 
             Product.builder()
-                .sku("SPRT-YOG-002").name("Premium Yoga Mat").categoryId(shirts != null ? shirts.getId() : null).categoryName("Shirts")
+                .sku("SPRT-YOG-002").name("Premium Yoga Mat").categoryId(yoga != null ? yoga.getId() : null).categoryName("Yoga & Pilates")
                 .description("Extra thick 6mm yoga mat with non-slip surface.")
                 .images(List.of("yoga-mat.svg")).price(new BigDecimal("2499")).discountPrice(new BigDecimal("1799")).currency("INR")
                 .stock(180).brand("FlexFit").featured(false).active(true).tags(List.of("yoga","fitness"))
                 .averageRating(4.1).reviewCount(23).salesCount(310).build(),
 
             Product.builder()
-                .sku("ELEC-AUD-003").name("Noise-Cancelling Headphones").categoryId(shirts != null ? shirts.getId() : null).categoryName("Shirts")
+                .sku("ELEC-AUD-003").name("Noise-Cancelling Headphones").categoryId(audio != null ? audio.getId() : null).categoryName("Audio")
                 .description("Wireless over-ear headphones with active noise cancellation.")
                 .images(List.of("headphones.svg")).price(new BigDecimal("14999")).discountPrice(new BigDecimal("9999")).currency("INR")
                 .stock(200).brand("SoundWave").featured(true).active(true).tags(List.of("headphones","wireless"))
                 .averageRating(4.3).reviewCount(28).salesCount(560).build(),
 
             Product.builder()
-                .sku("HOME-LMP-002").name("LED Desk Lamp").categoryId(shirts != null ? shirts.getId() : null).categoryName("Shirts")
+                .sku("HOME-LMP-002").name("LED Desk Lamp").categoryId(lighting != null ? lighting.getId() : null).categoryName("Lighting")
                 .description("Adjustable LED desk lamp with USB charging port and touch control.")
-                .images(List.of("electronics.svg")).price(new BigDecimal("1999")).currency("INR")
+                .images(List.of("lamp.svg")).price(new BigDecimal("1999")).currency("INR")
                 .stock(120).brand("HomeChef").featured(false).active(true).tags(List.of("lamp","led"))
                 .averageRating(4.0).reviewCount(15).salesCount(190).build()
         );
