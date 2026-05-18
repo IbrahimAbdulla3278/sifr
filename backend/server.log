@@ -597,3 +597,314 @@
 2026-05-18T21:27:30.760+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /uploads/tshirt.svg
 2026-05-18T21:27:30.761+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
 2026-05-18T21:27:30.762+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /uploads/tshirt.svg
+2026-05-18T21:39:36.599+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /products?page=0&size=12&sort=createdAt,desc&categorySlug=men
+2026-05-18T21:39:36.599+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Securing GET /categories/slug/men
+2026-05-18T21:39:36.618+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:36.618+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:36.624+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /products?page=0&size=12&sort=createdAt,desc&categorySlug=men
+2026-05-18T21:39:36.624+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Secured GET /categories/slug/men
+2026-05-18T21:39:36.704+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /uploads/headphones.svg
+2026-05-18T21:39:36.704+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /uploads/yoga-mat.svg
+2026-05-18T21:39:36.705+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:36.706+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:36.715+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /uploads/yoga-mat.svg
+2026-05-18T21:39:36.708+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /uploads/lamp.svg
+2026-05-18T21:39:36.716+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:36.715+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /uploads/headphones.svg
+2026-05-18T21:39:36.721+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /uploads/lamp.svg
+2026-05-18T21:39:36.724+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /uploads/jacket.svg
+2026-05-18T21:39:36.735+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:36.730+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /uploads/blender.svg
+2026-05-18T21:39:36.737+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:36.731+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /uploads/cookbook.svg
+2026-05-18T21:39:36.737+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:36.738+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /uploads/blender.svg
+2026-05-18T21:39:36.738+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /uploads/cookbook.svg
+2026-05-18T21:39:36.736+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /uploads/jacket.svg
+2026-05-18T21:39:36.765+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /uploads/laptop.svg
+2026-05-18T21:39:36.767+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:36.770+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /uploads/laptop.svg
+2026-05-18T21:39:36.774+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /uploads/tshirt.svg
+2026-05-18T21:39:36.791+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /uploads/phone.svg
+2026-05-18T21:39:36.791+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:36.791+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:36.797+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /uploads/phone.svg
+2026-05-18T21:39:36.799+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /uploads/tshirt.svg
+2026-05-18T21:39:36.806+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /uploads/sneakers.svg
+2026-05-18T21:39:36.807+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:36.808+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /uploads/sneakers.svg
+2026-05-18T21:39:39.298+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /categories/tree
+2026-05-18T21:39:39.300+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.304+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /categories/tree
+2026-05-18T21:39:39.336+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Securing GET /uploads/men.svg
+2026-05-18T21:39:39.337+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.341+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Secured GET /uploads/men.svg
+2026-05-18T21:39:39.345+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /uploads/women.svg
+2026-05-18T21:39:39.346+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.349+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /uploads/women.svg
+2026-05-18T21:39:39.356+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /uploads/beauty.svg
+2026-05-18T21:39:39.357+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.357+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Securing GET /uploads/travel.svg
+2026-05-18T21:39:39.357+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /uploads/beauty.svg
+2026-05-18T21:39:39.360+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.363+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Secured GET /uploads/travel.svg
+2026-05-18T21:39:39.365+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /uploads/electronics.svg
+2026-05-18T21:39:39.369+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.366+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /uploads/sports.svg
+2026-05-18T21:39:39.367+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /uploads/books.svg
+2026-05-18T21:39:39.370+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.371+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /uploads/electronics.svg
+2026-05-18T21:39:39.369+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /uploads/bottomwear.svg
+2026-05-18T21:39:39.370+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.371+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /uploads/sports.svg
+2026-05-18T21:39:39.371+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.372+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Securing GET /uploads/innerwear.svg
+2026-05-18T21:39:39.372+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /uploads/books.svg
+2026-05-18T21:39:39.372+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /uploads/bottomwear.svg
+2026-05-18T21:39:39.374+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /uploads/jewellery-men.svg
+2026-05-18T21:39:39.375+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /uploads/sleepwear.svg
+2026-05-18T21:39:39.376+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.382+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /uploads/athleisure.svg
+2026-05-18T21:39:39.383+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.385+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Secured GET /uploads/innerwear.svg
+2026-05-18T21:39:39.382+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.382+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.386+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /uploads/jewellery-men.svg
+2026-05-18T21:39:39.385+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /uploads/athleisure.svg
+2026-05-18T21:39:39.386+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /uploads/ethnic.svg
+2026-05-18T21:39:39.390+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.386+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /uploads/sleepwear.svg
+2026-05-18T21:39:39.393+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /uploads/ethnic.svg
+2026-05-18T21:39:39.389+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /uploads/footwear-men.svg
+2026-05-18T21:39:39.402+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.403+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /uploads/footwear-men.svg
+2026-05-18T21:39:39.404+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /uploads/accessories-men.svg
+2026-05-18T21:39:39.392+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /uploads/home.svg
+2026-05-18T21:39:39.405+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /uploads/topwear.svg
+2026-05-18T21:39:39.408+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.408+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.408+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:39.409+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /uploads/accessories-men.svg
+2026-05-18T21:39:39.410+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /uploads/topwear.svg
+2026-05-18T21:39:39.409+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /uploads/home.svg
+2026-05-18T21:39:54.247+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /products?page=0&size=12&sort=createdAt,desc&categorySlug=men
+2026-05-18T21:39:54.247+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:54.249+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /categories/slug/men
+2026-05-18T21:39:54.249+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /products?page=0&size=12&sort=createdAt,desc&categorySlug=men
+2026-05-18T21:39:54.249+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:54.250+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /categories/slug/men
+2026-05-18T21:39:54.327+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /uploads/yoga-mat.svg
+2026-05-18T21:39:54.328+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:54.327+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Securing GET /uploads/blender.svg
+2026-05-18T21:39:54.329+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:54.330+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /uploads/yoga-mat.svg
+2026-05-18T21:39:54.328+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /uploads/headphones.svg
+2026-05-18T21:39:54.330+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:54.328+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /uploads/lamp.svg
+2026-05-18T21:39:54.328+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /uploads/jacket.svg
+2026-05-18T21:39:54.332+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:54.330+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Secured GET /uploads/blender.svg
+2026-05-18T21:39:54.337+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /uploads/cookbook.svg
+2026-05-18T21:39:54.331+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /uploads/headphones.svg
+2026-05-18T21:39:54.332+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:54.335+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /uploads/jacket.svg
+2026-05-18T21:39:54.346+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /uploads/lamp.svg
+2026-05-18T21:39:54.338+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:54.352+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /uploads/cookbook.svg
+2026-05-18T21:39:54.358+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /uploads/tshirt.svg
+2026-05-18T21:39:54.358+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /uploads/sneakers.svg
+2026-05-18T21:39:54.358+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /uploads/phone.svg
+2026-05-18T21:39:54.364+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:54.363+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:54.364+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:54.365+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /uploads/tshirt.svg
+2026-05-18T21:39:54.366+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /uploads/sneakers.svg
+2026-05-18T21:39:54.366+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /uploads/phone.svg
+2026-05-18T21:39:54.361+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /uploads/laptop.svg
+2026-05-18T21:39:54.386+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:39:54.388+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /uploads/laptop.svg
+2026-05-18T21:40:06.082+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /products/6a0b35aee7a6586a750415e2
+2026-05-18T21:40:06.092+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:40:06.097+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /products/6a0b35aee7a6586a750415e2
+2026-05-18T21:40:06.147+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /products/6a0b35aee7a6586a750415e2/related
+2026-05-18T21:40:06.147+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:40:06.148+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /products/6a0b35aee7a6586a750415e2/related
+2026-05-18T21:43:47.686+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2026-05-18T21:43:47.692+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2026-05-18T21:43:47.693+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:47.695+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2026-05-18T21:43:48.368+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2026-05-18T21:43:48.600+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /users/profile
+2026-05-18T21:43:48.603+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /users/profile
+2026-05-18T21:43:48.622+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /cart
+2026-05-18T21:43:48.626+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /cart
+2026-05-18T21:43:48.628+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /banners/active
+2026-05-18T21:43:48.632+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Securing GET /banners/active
+2026-05-18T21:43:48.632+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /categories/tree
+2026-05-18T21:43:48.634+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /products/featured
+2026-05-18T21:43:48.635+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /categories/tree
+2026-05-18T21:43:48.637+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /products/featured
+2026-05-18T21:43:48.745+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /categories/tree
+2026-05-18T21:43:48.751+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /products/featured
+2026-05-18T21:43:48.753+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /users/profile
+2026-05-18T21:43:48.765+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /cart
+2026-05-18T21:43:48.772+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Secured GET /banners/active
+2026-05-18T21:43:48.866+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /uploads/phone.svg
+2026-05-18T21:43:48.870+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:48.866+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /uploads/laptop.svg
+2026-05-18T21:43:48.870+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:48.866+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /uploads/tshirt.svg
+2026-05-18T21:43:48.877+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:48.878+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /uploads/tshirt.svg
+2026-05-18T21:43:48.868+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /uploads/cookbook.svg
+2026-05-18T21:43:48.870+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /uploads/blender.svg
+2026-05-18T21:43:48.871+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /uploads/phone.svg
+2026-05-18T21:43:48.876+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /uploads/laptop.svg
+2026-05-18T21:43:48.887+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:48.890+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:48.895+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /uploads/cookbook.svg
+2026-05-18T21:43:48.896+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /uploads/blender.svg
+2026-05-18T21:43:48.911+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /uploads/sneakers.svg
+2026-05-18T21:43:48.923+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:48.918+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /uploads/headphones.svg
+2026-05-18T21:43:48.925+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /uploads/sneakers.svg
+2026-05-18T21:43:48.924+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:48.936+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /uploads/headphones.svg
+2026-05-18T21:43:49.029+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /uploads/men.svg
+2026-05-18T21:43:49.030+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /uploads/travel.svg
+2026-05-18T21:43:49.030+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /uploads/electronics.svg
+2026-05-18T21:43:49.031+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:49.030+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Securing GET /uploads/books.svg
+2026-05-18T21:43:49.031+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:49.031+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:49.033+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /uploads/men.svg
+2026-05-18T21:43:49.033+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /uploads/electronics.svg
+2026-05-18T21:43:49.033+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:49.046+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Secured GET /uploads/books.svg
+2026-05-18T21:43:49.054+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /uploads/sports.svg
+2026-05-18T21:43:49.034+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /uploads/travel.svg
+2026-05-18T21:43:49.063+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:49.069+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /uploads/sports.svg
+2026-05-18T21:43:49.080+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /uploads/banner1.svg
+2026-05-18T21:43:49.081+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:49.081+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /uploads/banner2.svg
+2026-05-18T21:43:49.083+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:49.095+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /uploads/banner2.svg
+2026-05-18T21:43:49.082+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /uploads/banner1.svg
+2026-05-18T21:43:49.116+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /uploads/home.svg
+2026-05-18T21:43:49.131+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:49.132+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /uploads/home.svg
+2026-05-18T21:43:49.119+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /uploads/beauty.svg
+2026-05-18T21:43:49.136+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:49.120+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /uploads/women.svg
+2026-05-18T21:43:49.127+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Securing GET /uploads/banner3.svg
+2026-05-18T21:43:49.148+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:49.149+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Secured GET /uploads/banner3.svg
+2026-05-18T21:43:49.144+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /uploads/beauty.svg
+2026-05-18T21:43:49.145+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:43:49.161+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /uploads/women.svg
+2026-05-18T21:44:07.966+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /users/profile
+2026-05-18T21:44:07.974+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /users/profile
+2026-05-18T21:44:12.059+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /categories/tree
+2026-05-18T21:44:12.061+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /categories/all
+2026-05-18T21:44:12.065+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /categories/all
+2026-05-18T21:44:12.096+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /categories/tree
+2026-05-18T21:44:12.109+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /categories/all
+2026-05-18T21:44:12.116+05:30 DEBUG 17920 --- [nio-8080-exec-3] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.ecommerce.controller.CategoryController.getAllCategoriesAdmin(); target is of class [com.ecommerce.controller.CategoryController]
+2026-05-18T21:44:12.196+05:30 DEBUG 17920 --- [nio-8080-exec-3] horizationManagerBeforeMethodInterceptor : Failed to authorize ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.ecommerce.controller.CategoryController.getAllCategoriesAdmin(); target is of class [com.ecommerce.controller.CategoryController] with authorization manager org.springframework.security.config.annotation.method.configuration.DeferringObservationAuthorizationManager@3e82d9b5 and decision ExpressionAuthorizationDecision [granted=false, expressionAttribute=hasRole('ADMIN')]
+2026-05-18T21:44:19.570+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /products?page=0&size=100&sort=newest
+2026-05-18T21:44:19.580+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Securing GET /products?page=0&size=100&sort=newest
+2026-05-18T21:44:19.589+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /categories/all
+2026-05-18T21:44:19.599+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Secured GET /products?page=0&size=100&sort=newest
+2026-05-18T21:44:19.601+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /categories/all
+2026-05-18T21:44:19.602+05:30 DEBUG 17920 --- [nio-8080-exec-4] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.ecommerce.controller.CategoryController.getAllCategoriesAdmin(); target is of class [com.ecommerce.controller.CategoryController]
+2026-05-18T21:44:19.602+05:30 DEBUG 17920 --- [nio-8080-exec-4] horizationManagerBeforeMethodInterceptor : Failed to authorize ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.ecommerce.controller.CategoryController.getAllCategoriesAdmin(); target is of class [com.ecommerce.controller.CategoryController] with authorization manager org.springframework.security.config.annotation.method.configuration.DeferringObservationAuthorizationManager@3e82d9b5 and decision ExpressionAuthorizationDecision [granted=false, expressionAttribute=hasRole('ADMIN')]
+2026-05-18T21:44:19.628+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /uploads/yoga-mat.svg
+2026-05-18T21:44:19.628+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:19.630+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /uploads/yoga-mat.svg
+2026-05-18T21:44:19.637+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /uploads/headphones.svg
+2026-05-18T21:44:19.638+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:19.641+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /uploads/headphones.svg
+2026-05-18T21:44:19.646+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /uploads/lamp.svg
+2026-05-18T21:44:19.647+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:19.649+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /uploads/lamp.svg
+2026-05-18T21:44:19.671+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /uploads/jacket.svg
+2026-05-18T21:44:19.672+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:19.675+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /uploads/jacket.svg
+2026-05-18T21:44:19.704+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /uploads/phone.svg
+2026-05-18T21:44:19.707+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:19.705+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /uploads/tshirt.svg
+2026-05-18T21:44:19.719+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:19.722+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /uploads/tshirt.svg
+2026-05-18T21:44:19.725+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /uploads/blender.svg
+2026-05-18T21:44:19.728+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:19.706+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /uploads/laptop.svg
+2026-05-18T21:44:19.736+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:19.739+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /uploads/laptop.svg
+2026-05-18T21:44:19.707+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /uploads/cookbook.svg
+2026-05-18T21:44:19.740+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:19.708+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Securing GET /uploads/sneakers.svg
+2026-05-18T21:44:19.748+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:19.749+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Secured GET /uploads/sneakers.svg
+2026-05-18T21:44:19.719+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /uploads/phone.svg
+2026-05-18T21:44:19.734+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /uploads/blender.svg
+2026-05-18T21:44:19.741+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /uploads/cookbook.svg
+2026-05-18T21:44:21.352+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /banners
+2026-05-18T21:44:21.360+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /banners
+2026-05-18T21:44:21.366+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /banners
+2026-05-18T21:44:21.367+05:30 DEBUG 17920 --- [nio-8080-exec-2] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.ecommerce.controller.BannerController.getAllBanners(); target is of class [com.ecommerce.controller.BannerController]
+2026-05-18T21:44:21.368+05:30 DEBUG 17920 --- [nio-8080-exec-2] horizationManagerBeforeMethodInterceptor : Failed to authorize ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.ecommerce.controller.BannerController.getAllBanners(); target is of class [com.ecommerce.controller.BannerController] with authorization manager org.springframework.security.config.annotation.method.configuration.DeferringObservationAuthorizationManager@3e82d9b5 and decision ExpressionAuthorizationDecision [granted=false, expressionAttribute=hasRole('ADMIN')]
+2026-05-18T21:44:23.195+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /admin/orders?page=0&size=20
+2026-05-18T21:44:23.209+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /admin/orders?page=0&size=20
+2026-05-18T21:44:23.215+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2026-05-18T21:44:23.225+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /error?page=0&size=20
+2026-05-18T21:44:23.228+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:23.230+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-05-18T21:44:24.575+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /banners
+2026-05-18T21:44:24.585+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /banners
+2026-05-18T21:44:24.585+05:30 DEBUG 17920 --- [nio-8080-exec-5] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.ecommerce.controller.BannerController.getAllBanners(); target is of class [com.ecommerce.controller.BannerController]
+2026-05-18T21:44:24.585+05:30 DEBUG 17920 --- [nio-8080-exec-5] horizationManagerBeforeMethodInterceptor : Failed to authorize ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.ecommerce.controller.BannerController.getAllBanners(); target is of class [com.ecommerce.controller.BannerController] with authorization manager org.springframework.security.config.annotation.method.configuration.DeferringObservationAuthorizationManager@3e82d9b5 and decision ExpressionAuthorizationDecision [granted=false, expressionAttribute=hasRole('ADMIN')]
+2026-05-18T21:44:31.142+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /products?page=0&size=100&sort=newest
+2026-05-18T21:44:31.149+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /categories/all
+2026-05-18T21:44:31.158+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /categories/all
+2026-05-18T21:44:31.158+05:30 DEBUG 17920 --- [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /products?page=0&size=100&sort=newest
+2026-05-18T21:44:31.159+05:30 DEBUG 17920 --- [nio-8080-exec-4] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.ecommerce.controller.CategoryController.getAllCategoriesAdmin(); target is of class [com.ecommerce.controller.CategoryController]
+2026-05-18T21:44:31.159+05:30 DEBUG 17920 --- [nio-8080-exec-4] horizationManagerBeforeMethodInterceptor : Failed to authorize ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.ecommerce.controller.CategoryController.getAllCategoriesAdmin(); target is of class [com.ecommerce.controller.CategoryController] with authorization manager org.springframework.security.config.annotation.method.configuration.DeferringObservationAuthorizationManager@3e82d9b5 and decision ExpressionAuthorizationDecision [granted=false, expressionAttribute=hasRole('ADMIN')]
+2026-05-18T21:44:31.180+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Securing GET /uploads/yoga-mat.svg
+2026-05-18T21:44:31.181+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:31.182+05:30 DEBUG 17920 --- [io-8080-exec-11] o.s.security.web.FilterChainProxy        : Secured GET /uploads/yoga-mat.svg
+2026-05-18T21:44:31.196+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /uploads/sneakers.svg
+2026-05-18T21:44:31.196+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /uploads/cookbook.svg
+2026-05-18T21:44:31.196+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /uploads/jacket.svg
+2026-05-18T21:44:31.196+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /uploads/headphones.svg
+2026-05-18T21:44:31.196+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /uploads/lamp.svg
+2026-05-18T21:44:31.197+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:31.197+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /uploads/blender.svg
+2026-05-18T21:44:31.198+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:31.198+05:30 DEBUG 17920 --- [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /uploads/blender.svg
+2026-05-18T21:44:31.197+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:31.199+05:30 DEBUG 17920 --- [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /uploads/cookbook.svg
+2026-05-18T21:44:31.197+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:31.207+05:30 DEBUG 17920 --- [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /uploads/jacket.svg
+2026-05-18T21:44:31.197+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:31.197+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:31.211+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /uploads/lamp.svg
+2026-05-18T21:44:31.198+05:30 DEBUG 17920 --- [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /uploads/sneakers.svg
+2026-05-18T21:44:31.202+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /uploads/tshirt.svg
+2026-05-18T21:44:31.215+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:31.218+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /uploads/tshirt.svg
+2026-05-18T21:44:31.210+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /uploads/headphones.svg
+2026-05-18T21:44:31.227+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /uploads/laptop.svg
+2026-05-18T21:44:31.228+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:31.228+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /uploads/phone.svg
+2026-05-18T21:44:31.229+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /uploads/laptop.svg
+2026-05-18T21:44:31.230+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-05-18T21:44:31.230+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /uploads/phone.svg
+2026-05-18T21:45:52.593+05:30 DEBUG 17920 --- [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /products
+2026-05-18T21:45:52.598+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /products
+2026-05-18T21:45:52.604+05:30 DEBUG 17920 --- [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /products
+2026-05-18T21:46:17.273+05:30 DEBUG 17920 --- [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /products/6a0b35aee7a6586a750415df
+2026-05-18T21:46:17.276+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing PUT /products/6a0b35aee7a6586a750415df
+2026-05-18T21:46:17.280+05:30 DEBUG 17920 --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured PUT /products/6a0b35aee7a6586a750415df
+2026-05-18T21:46:17.294+05:30 DEBUG 17920 --- [nio-8080-exec-2] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.ecommerce.controller.ProductController.updateProduct(java.lang.String,com.ecommerce.dto.request.ProductRequest,java.util.List); target is of class [com.ecommerce.controller.ProductController]
+2026-05-18T21:46:17.295+05:30 DEBUG 17920 --- [nio-8080-exec-2] horizationManagerBeforeMethodInterceptor : Failed to authorize ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.ecommerce.controller.ProductController.updateProduct(java.lang.String,com.ecommerce.dto.request.ProductRequest,java.util.List); target is of class [com.ecommerce.controller.ProductController] with authorization manager org.springframework.security.config.annotation.method.configuration.DeferringObservationAuthorizationManager@3e82d9b5 and decision ExpressionAuthorizationDecision [granted=false, expressionAttribute=hasRole('ADMIN')]
